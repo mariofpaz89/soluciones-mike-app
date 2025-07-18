@@ -1,0 +1,26 @@
+{
+  "header": {
+    "logo_text": "Soluciones Mike",
+    "home": "Inicio",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Soluciones Mike",
+    "subtitle": "Impulsando tu negocio con innovación y eficiencia tecnológica.",
+    "cta_button": "Conoce Nuestros Servicios"
+  },
+  "services_section": {
+    "title": "Nuestros Servicios",
+    "automation_title": "Automatización con n8n",
+    "automation_description": "Optimiza tus flujos de trabajo y conecta tus aplicaciones sin esfuerzo, ahorrando tiempo y reduciendo errores.",
+    "web_dev_title": "Creación de Sitios Web",
+    "web_dev_description": "Diseñamos y desarrollamos sitios web modernos, atractivos y funcionales que capturan la esencia de tu marca y atraen a tus clientes."
+  },
+  "footer": {
+    "copyright": "© 2025 Soluciones Mike. Mike, Vicepresidente Junior."
+  },
+  "language_switcher": {
+    "select_language": "Idioma:"
+  }
+}

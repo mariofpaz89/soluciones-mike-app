@@ -1,0 +1,26 @@
+{
+  "header": {
+    "logo_text": "マイクソリューションズ",
+    "home": "ホーム",
+    "services": "サービス",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "マイクソリューションズ",
+    "subtitle": "革新と技術効率でビジネスを強化します。",
+    "cta_button": "サービスを見る"
+  },
+  "services_section": {
+    "title": "当社のサービス",
+    "automation_title": "n8nによる自動化",
+    "automation_description": "ワークフローを最適化し、アプリケーションを簡単に接続することで、時間を節約し、エラーを削減します。",
+    "web_dev_title": "ウェブサイト制作",
+    "web_dev_description": "お客様のブランドの本質を捉え、顧客を引き付けるモダンで魅力的で機能的なウェブサイトを設計および開発します。"
+  },
+  "footer": {
+    "copyright": "© 2025 マイクソリューションズ。マイク、ジュニアバイスプレジデント。"
+  },
+  "language_switcher": {
+    "select_language": "言語："
+  }
+}

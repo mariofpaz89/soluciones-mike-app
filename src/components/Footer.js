@@ -1,10 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // Importar useTranslation
 
 function Footer() {
+  const { t } = useTranslation(); // Inicializar useTranslation
+
   return (
     <footer id="contact">
       <div className="container">
-        <p>&copy; 2025 Soluciones Mike. Mike, Vicepresidente Junior.</p>
+        <p>{t('footer.copyright')}</p> {/* Usar la clave */}
       </div>
     </footer>
   );

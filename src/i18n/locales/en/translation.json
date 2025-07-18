@@ -1,0 +1,26 @@
+{
+  "header": {
+    "logo_text": "Mike Solutions",
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Mike Solutions",
+    "subtitle": "Empowering your business with innovation and technological efficiency.",
+    "cta_button": "Discover Our Services"
+  },
+  "services_section": {
+    "title": "Our Services",
+    "automation_title": "Automation with n8n",
+    "automation_description": "Optimize your workflows and connect your applications effortlessly, saving time and reducing errors.",
+    "web_dev_title": "Website Creation",
+    "web_dev_description": "We design and develop modern, attractive, and functional websites that capture your brand's essence and attract your clients."
+  },
+  "footer": {
+    "copyright": "© 2025 Mike Solutions. Mike, Junior Vice President."
+  },
+  "language_switcher": {
+    "select_language": "Language:"
+  }
+}

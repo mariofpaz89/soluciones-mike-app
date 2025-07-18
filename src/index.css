@@ -393,3 +393,57 @@ footer p {
         font-size: 1.8em;
     }
 }
+/* Language Switcher Styles */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre label y select */
+    font-size: 0.95em;
+    color: var(--dark-text);
+    font-weight: 500;
+}
+
+.language-switcher label {
+    margin-right: 5px;
+    white-space: nowrap; /* Evita que el texto se rompa */
+}
+
+.language-switcher select {
+    padding: 8px 12px;
+    border: 1px solid var(--primary-light);
+    border-radius: var(--border-radius-soft);
+    background-color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95em;
+    color: var(--dark-text);
+    cursor: pointer;
+    outline: none;
+    transition: all var(--transition-speed);
+    appearance: none; /* Elimina estilos predeterminados del navegador */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%20viewBox%3D%220%200%20292.4%20292.4%22%3E%3Cpath%20fill%3D%22%233498DB%22%20d%3D%22M287%2C197.3L159.2%2C69.6c-4.6-4.6-12-4.6-16.7%2C0L5.4%2C197.3c-7.3%2C7.3-2%2C17.7%2C8.3%2C17.7h271.3C289%2C215%2C294.3%2C204.6%2C287%2C197.3z%22%2F%3E%3C%2Fsvg%3E'); /* Flecha personalizada */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+.language-switcher select:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.language-switcher select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+@media (max-width: 768px) {
+    .language-switcher {
+        position: absolute; /* O ajusta según donde quieras que aparezca en móvil */
+        top: 15px;
+        right: 20px;
+        font-size: 0.85em;
+    }
+    .language-switcher select {
+        padding: 6px 10px;
+    }
+}
