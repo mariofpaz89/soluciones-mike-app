@@ -1,8 +1,6 @@
 [build]
-  command = "npm install --legacy-peer-deps && npm run build"
+  command = "npm install --force && npm run build" 
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "18" # Puedes especificar la versión de Node.js, ej. "16", "18", "20"
-                      # Si sabes qué versión de Node.js usaste localmente, úsala aquí.
-                      # La v18 suele ser un buen punto de partida.
+  NODE_VERSION = "18" # O "20". Mantén esta línea.
